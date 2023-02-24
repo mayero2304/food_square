@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+spring:
+  output:
+    ansi:
+      enabled: always
+  datasource:
+    url: jdbc:mysql://localhost:3306/powerup
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
+# appDescription: "Pragma Powerup"
+# appVersion: "1.0.0"
